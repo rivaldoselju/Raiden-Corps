@@ -7,10 +7,12 @@ body {
 h1 {
     font-size: 50px;
 }
+ body {
     margin: 0;
     background-color: #0b0d12;
     color: white;
     font-family: Arial, sans-serif;
+}
 
 nav {
     padding: 20px 8%;
@@ -18,4 +20,37 @@ nav {
     align-items: center;
     gap: 30px;
     border-bottom: 1px solid #252832;
+}
+
+nav h2 {
+    margin-right: auto;
+}
+
+nav a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 30px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 15px 0;
+}
+
+p {
+    color: #aaa;
+    font-size: 18px;
 }
